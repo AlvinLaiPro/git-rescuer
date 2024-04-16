@@ -1,13 +1,27 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
+    "target": "ESNext",
+    "module": "esnext",
+    "moduleResolution": "node",
     "strict": true,
     "outDir": "lib/",
+    "rootDir": "src/",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "declaration": true,
     "forceConsistentCasingInFileNames": true
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "esnext",
+      "esModuleInterop": true,
+      "target": "es2016",
+      "moduleResolution": "node",
+      "resolveJsonModule": true
+    }
   },
   "include": ["src/**/*.ts"]
 }

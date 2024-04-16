@@ -1,4 +1,2 @@
-#!/usr/bin/env node
-'use strict';
-
-require('../lib/cli.js');
+#!/usr/bin/env node --experimental-specifier-resolution=node --no-warnings
+import '../lib/cli.js';

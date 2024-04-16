@@ -1,0 +1,45 @@
+{
+  "compare": [
+    {
+      "name": "frontend",
+      "local_branch": "24-2_XMN-STB",
+      "remote_branch": "release_24-2"
+    },
+    {
+      "name": "backend",
+      "local_branch": "24-2_XMN-STB",
+      "remote_branch": "release_24-2"
+    },
+    {
+      "name": "uns",
+      "local_branch": "24-2_XMN-STB",
+      "remote_branch": "release_24-2"
+    },
+    {
+      "name": "web",
+      "local_branch": "24-2_XMN-STB",
+      "remote_branch": "release_24-2"
+    },
+    {
+      "name": "web-modules-core",
+      "local_branch": "feature/24-2_XMN-STB",
+      "remote_branch": "release/24.2"
+    },
+    {
+      "name": "jedi",
+      "local_branch": "24-2_XMN-STB",
+      "remote_branch": "release_24-2"
+    }
+  ],
+  "merge": [
+    {
+      "name": "clw",
+      "local_branch": "release_24-2",
+      "remote_branch": "master",
+      "new_branch_name": "branch-for-test",
+      "prepare": "cd WEB && yarn",
+      "message": "Merge branch 'master' into release_24-2"
+    }
+  ],
+  "rootPath": "/Users/patrick.lai/Documents/projects"
+}
