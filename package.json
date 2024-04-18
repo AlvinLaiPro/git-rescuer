@@ -1,6 +1,6 @@
 {
   "name": "git-rescuer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to help you compare and create merge requests for multiple repositories",
   "type": "module",
   "files": [
